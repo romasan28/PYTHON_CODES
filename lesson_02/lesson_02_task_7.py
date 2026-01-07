@@ -1,0 +1,1 @@
+print(list(range(18,2-4,-4)))

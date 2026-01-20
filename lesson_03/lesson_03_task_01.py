@@ -1,7 +1,7 @@
-from user import user
+from user import User
 
-my_user = user("Roman", "Nosachev")
+my_user = User("Roman", "Nosachev")
 
-print(my_user.get_first_name())
-print(my_user.get_last_name())
-print(my_user.get_firlast_name())
+my_user.get_first_name()
+my_user.get_last_name()
+my_user.get_firlast_name()
